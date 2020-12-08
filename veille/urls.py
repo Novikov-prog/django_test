@@ -19,5 +19,5 @@ from . import propos
 
 urlpatterns = [
     path('', propos.home),
-   
+    path('reversed/', propos.reverse, name="reverse"),
 ]
